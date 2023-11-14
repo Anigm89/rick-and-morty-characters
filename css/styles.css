@@ -75,7 +75,34 @@ table {
 ul {  
   padding-top: 100px;
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
+li{
+  width: 14vw;
+  height: 21vw;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 5px;
+}
 
-
+li img{
+  width: 13vw;
+  height: 17vw;
+  object-fit: cover;
+}
+li p{
+  margin-top: 0.2vw;
+  font-size: 1vw;
+  font-family: Arial;
+}
+span{
+  font-weight: bold;
+}
